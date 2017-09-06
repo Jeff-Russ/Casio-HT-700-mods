@@ -1,0 +1,13 @@
+.title KiCad schematic
+UU1 0 Net-_R3-Pad1_ Net-_Q1-Pad2_ +5VA Net-_C2-Pad1_ Net-_C3-Pad1_ Net-_D1-Pad2_ +5VA NE555
+CC3 Net-_C3-Pad1_ 0 1µF
+QQ1 ? Net-_Q1-Pad2_ ? PN2222A
+RR1 +5VA Net-_D1-Pad2_ 47K
+CC1 +5VA 0 10uF
+CC2 Net-_C2-Pad1_ 0 0.1uF
+RR2 Net-_D1-Pad2_ Net-_D2-Pad1_ 1M
+RR3 Net-_R3-Pad1_ Net-_D1-Pad1_ 100
+RR4 Net-_R3-Pad1_ Net-_D2-Pad2_ 0
+DD2 Net-_D2-Pad1_ Net-_D2-Pad2_ 1N4148
+DD1 Net-_D1-Pad1_ Net-_D1-Pad2_ 1N4148
+.end
