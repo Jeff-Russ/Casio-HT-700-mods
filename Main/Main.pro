@@ -1,4 +1,4 @@
-update=Wednesday, September 06, 2017 'AMt' 12:40:10 AM
+update=Thursday, March 22, 2018 'PMt' 10:00:41 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -22,6 +22,9 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
 [eeschema]
 version=1
 LibDir=
@@ -58,11 +61,16 @@ LibName29=valves
 LibName30=pspice
 LibName31=switches
 LibName32=relays
-LibName33=w_relay
-LibName34=/Users/jeff/Downloads/kicad-library-master/library/linear
-[cvpcb]
-version=1
-NetIExt=net
+LibName33=/Users/jeff/Downloads/kicad-library-master/library/linear
+LibName34=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/smisioto/library/w_relay
+LibName35=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKi_Board_Features
+LibName36=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKi_Connectors
+LibName37=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKi_DIP_IC
+LibName38=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKi_Panel_Layout
+LibName39=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKI_Potentiometers
+LibName40=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKi_Power_Flags
+LibName41=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKi_Power_Regulators
+LibName42=/Users/jeff/Google Drive/EE and Repairs/KiCadLibs/MyKi/Symbols/MyKi_Switches
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -70,6 +78,6 @@ PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=39
+ERC_TestSimilarLabels=1

@@ -1,0 +1,570 @@
+EESchema Schematic File Version 2
+LIBS:Modularized-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:MyKi_Board_Features
+LIBS:MyKi_Connectors
+LIBS:MyKi_DIP_IC
+LIBS:MyKi_Panel_Layout
+LIBS:MyKI_Potentiometers
+LIBS:MyKi_Power_Flags
+LIBS:MyKi_Power_Regulators
+LIBS:MyKi_Switches
+LIBS:MyKi_Device
+LIBS:Modularized-cache
+EELAYER 26 0
+EELAYER END
+$Descr User 7874 7874
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R?
+U 1 1 5ABB203B
+P 4000 3050
+AR Path="/5ABB6026/5ABB0DDC/5ABB203B" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB203B" Ref="R7"  Part="1" 
+F 0 "R7" V 3950 2900 33  0000 R CNN
+F 1 "22K?" V 4015 3050 39  0000 C BNN
+F 2 "" V 3930 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    4000 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Op-Amp_noPower U?
+U 1 1 5ABB2042
+P 5050 2950
+AR Path="/5ABB6026/5ABB0DDC/5ABB2042" Ref="U?"  Part="1" 
+AR Path="/5AC48A56/5ABB2042" Ref="U1"  Part="1" 
+F 0 "U1" H 5150 3100 28  0000 L CNN
+F 1 "LA6358?" H 4950 3150 28  0000 L CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	1    0    0    1   
+$EndComp
+Text Notes 3500 3050 0    47   ~ 0
+Resistor might\nnot be needed\nwithout Mute\nCircuit.
+$Comp
+L R R?
+U 1 1 5ABB204A
+P 4000 4600
+AR Path="/5ABB6026/5ABB0DDC/5ABB204A" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB204A" Ref="R8"  Part="1" 
+F 0 "R8" V 3950 4500 33  0000 R CNN
+F 1 "22K?" V 4015 4600 39  0000 C BNN
+F 2 "" V 3930 4600 50  0001 C CNN
+F 3 "" H 4000 4600 50  0001 C CNN
+	1    4000 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Op-Amp_noPower U?
+U 2 1 5ABB2051
+P 5050 4500
+AR Path="/5ABB6026/5ABB0DDC/5ABB2051" Ref="U?"  Part="1" 
+AR Path="/5AC48A56/5ABB2051" Ref="U1"  Part="2" 
+F 0 "U1" H 5150 4650 28  0000 L CNN
+F 1 "LA6358?" H 4950 4700 28  0000 L CNN
+F 2 "" H 5050 4500 50  0001 C CNN
+F 3 "" H 5050 4500 50  0001 C CNN
+	2    5050 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Q_NJFET_DGS Q?
+U 1 1 5ABB2058
+P 4450 3900
+AR Path="/5ABB6026/5ABB0DDC/5ABB2058" Ref="Q?"  Part="1" 
+AR Path="/5AC48A56/5ABB2058" Ref="Q2"  Part="1" 
+F 0 "Q2" H 4600 4100 33  0000 L CNN
+F 1 "2SJ104" V 4650 3850 33  0000 L CNN
+F 2 "" H 4650 4000 50  0001 C CNN
+F 3 "" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB205F
+P 4800 3900
+AR Path="/5ABB6026/5ABB0DDC/5ABB205F" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB205F" Ref="R12"  Part="1" 
+F 0 "R12" H 4750 4050 33  0000 C TNN
+F 1 "2.2M?" V 4800 3900 33  0000 C CNN
+F 2 "" V 4730 3900 50  0001 C CNN
+F 3 "" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 5ABB2066
+P 4350 3650
+AR Path="/5ABB6026/5ABB0DDC/5ABB2066" Ref="#PWR?"  Part="1" 
+AR Path="/5AC48A56/5ABB2066" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 4350 3400 50  0001 C CNN
+F 1 "GNDA" H 4350 3525 33  0000 C CNN
+F 2 "" H 4350 3650 50  0001 C CNN
+F 3 "" H 4350 3650 50  0001 C CNN
+	1    4350 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ABB206C
+P 4550 4400
+AR Path="/5ABB6026/5ABB0DDC/5ABB206C" Ref="C?"  Part="1" 
+AR Path="/5AC48A56/5ABB206C" Ref="C2"  Part="1" 
+F 0 "C2" H 4600 4300 33  0000 L CNN
+F 1 "1µ?" H 4600 4500 33  0000 L CNN
+F 2 "" H 4550 4400 50  0001 C CNN
+F 3 "" H 4550 4400 50  0001 C CNN
+	1    4550 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB2073
+P 4100 4200
+AR Path="/5ABB6026/5ABB0DDC/5ABB2073" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB2073" Ref="R10"  Part="1" 
+F 0 "R10" V 4050 4400 33  0000 R CNN
+F 1 "2.2M?" V 4115 4200 39  0000 C BNN
+F 2 "" V 4030 4200 50  0001 C CNN
+F 3 "" H 4100 4200 50  0001 C CNN
+	1    4100 4200
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB207A
+P 3700 4200
+AR Path="/5ABB6026/5ABB0DDC/5ABB207A" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB207A" Ref="R6"  Part="1" 
+F 0 "R6" V 3650 4400 33  0000 R CNN
+F 1 "2.2M?" V 3715 4200 39  0000 C BNN
+F 2 "" V 3630 4200 50  0001 C CNN
+F 3 "" H 3700 4200 50  0001 C CNN
+	1    3700 4200
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB2081
+P 3700 4050
+AR Path="/5ABB6026/5ABB0DDC/5ABB2081" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB2081" Ref="R5"  Part="1" 
+F 0 "R5" V 3650 4250 33  0000 R CNN
+F 1 "1M?" V 3715 4050 39  0000 C BNN
+F 2 "" V 3630 4050 50  0001 C CNN
+F 3 "" H 3700 4050 50  0001 C CNN
+	1    3700 4050
+	0    1    -1   0   
+$EndComp
+$Comp
+L D_Small_ALT D?
+U 1 1 5ABB2088
+P 3600 3900
+AR Path="/5ABB6026/5ABB0DDC/5ABB2088" Ref="D?"  Part="1" 
+AR Path="/5AC48A56/5ABB2088" Ref="D4"  Part="1" 
+F 0 "D4" H 3700 3850 33  0000 C CNN
+F 1 "1n4148?" H 3500 3950 33  0000 L BNN
+F 2 "" V 3600 3900 50  0001 C CNN
+F 3 "" V 3600 3900 50  0001 C CNN
+	1    3600 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_Small_ALT D?
+U 1 1 5ABB208F
+P 3400 4050
+AR Path="/5ABB6026/5ABB0DDC/5ABB208F" Ref="D?"  Part="1" 
+AR Path="/5AC48A56/5ABB208F" Ref="D2"  Part="1" 
+F 0 "D2" H 3300 4100 33  0000 C CNN
+F 1 "1n4148?" H 3300 3950 33  0000 L BNN
+F 2 "" V 3400 4050 50  0001 C CNN
+F 3 "" V 3400 4050 50  0001 C CNN
+	1    3400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 5ABB2096
+P 3150 4400
+AR Path="/5ABB6026/5ABB0DDC/5ABB2096" Ref="#PWR?"  Part="1" 
+AR Path="/5AC48A56/5ABB2096" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 3150 4150 50  0001 C CNN
+F 1 "GNDA" H 3150 4275 33  0000 C CNN
+F 2 "" H 3150 4400 50  0001 C CNN
+F 3 "" H 3150 4400 50  0001 C CNN
+	1    3150 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB209C
+P 3150 4200
+AR Path="/5ABB6026/5ABB0DDC/5ABB209C" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB209C" Ref="R2"  Part="1" 
+F 0 "R2" H 3100 4400 33  0000 C TNN
+F 1 "47K?" V 3150 4200 33  0000 C CNN
+F 2 "" V 3080 4200 50  0001 C CNN
+F 3 "" H 3150 4200 50  0001 C CNN
+	1    3150 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Q_NJFET_DGS Q?
+U 1 1 5ABB20A4
+P 4450 2350
+AR Path="/5ABB6026/5ABB0DDC/5ABB20A4" Ref="Q?"  Part="1" 
+AR Path="/5AC48A56/5ABB20A4" Ref="Q1"  Part="1" 
+F 0 "Q1" H 4600 2550 33  0000 L CNN
+F 1 "2SJ104?" V 4650 2250 33  0000 L CNN
+F 2 "" H 4650 2450 50  0001 C CNN
+F 3 "" H 4450 2350 50  0001 C CNN
+	1    4450 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB20AB
+P 4800 2350
+AR Path="/5ABB6026/5ABB0DDC/5ABB20AB" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB20AB" Ref="R11"  Part="1" 
+F 0 "R11" H 4750 2500 33  0000 C TNN
+F 1 "2.2M?" V 4800 2350 33  0000 C CNN
+F 2 "" V 4730 2350 50  0001 C CNN
+F 3 "" H 4800 2350 50  0001 C CNN
+	1    4800 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 5ABB20B2
+P 4350 2100
+AR Path="/5ABB6026/5ABB0DDC/5ABB20B2" Ref="#PWR?"  Part="1" 
+AR Path="/5AC48A56/5ABB20B2" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 4350 1850 50  0001 C CNN
+F 1 "GNDA" H 4350 1975 33  0000 C CNN
+F 2 "" H 4350 2100 50  0001 C CNN
+F 3 "" H 4350 2100 50  0001 C CNN
+	1    4350 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 5ABB20B8
+P 4550 2850
+AR Path="/5ABB6026/5ABB0DDC/5ABB20B8" Ref="C?"  Part="1" 
+AR Path="/5AC48A56/5ABB20B8" Ref="C1"  Part="1" 
+F 0 "C1" H 4600 2750 33  0000 L CNN
+F 1 "1µ?" H 4600 2950 33  0000 L CNN
+F 2 "" H 4550 2850 50  0001 C CNN
+F 3 "" H 4550 2850 50  0001 C CNN
+	1    4550 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB20BF
+P 4100 2600
+AR Path="/5ABB6026/5ABB0DDC/5ABB20BF" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB20BF" Ref="R9"  Part="1" 
+F 0 "R9" V 4050 2800 33  0000 R CNN
+F 1 "100K?" V 4115 2600 39  0000 C BNN
+F 2 "" V 4030 2600 50  0001 C CNN
+F 3 "" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB20C7
+P 3700 2600
+AR Path="/5ABB6026/5ABB0DDC/5ABB20C7" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB20C7" Ref="R4"  Part="1" 
+F 0 "R4" V 3650 2800 33  0000 R CNN
+F 1 "2.2M?" V 3715 2600 39  0000 C BNN
+F 2 "" V 3630 2600 50  0001 C CNN
+F 3 "" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB20CE
+P 3700 2450
+AR Path="/5ABB6026/5ABB0DDC/5ABB20CE" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB20CE" Ref="R3"  Part="1" 
+F 0 "R3" V 3650 2650 33  0000 R CNN
+F 1 "1M?" V 3715 2450 39  0000 C BNN
+F 2 "" V 3630 2450 50  0001 C CNN
+F 3 "" H 3700 2450 50  0001 C CNN
+	1    3700 2450
+	0    1    -1   0   
+$EndComp
+$Comp
+L D_Small_ALT D?
+U 1 1 5ABB20D5
+P 3600 2300
+AR Path="/5ABB6026/5ABB0DDC/5ABB20D5" Ref="D?"  Part="1" 
+AR Path="/5AC48A56/5ABB20D5" Ref="D3"  Part="1" 
+F 0 "D3" H 3700 2250 33  0000 C CNN
+F 1 "1n4148?" H 3500 2350 33  0000 L BNN
+F 2 "" V 3600 2300 50  0001 C CNN
+F 3 "" V 3600 2300 50  0001 C CNN
+	1    3600 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_Small_ALT D?
+U 1 1 5ABB20DC
+P 3400 2450
+AR Path="/5ABB6026/5ABB0DDC/5ABB20DC" Ref="D?"  Part="1" 
+AR Path="/5AC48A56/5ABB20DC" Ref="D1"  Part="1" 
+F 0 "D1" H 3300 2500 33  0000 C CNN
+F 1 "1n4148?" H 3250 2350 33  0000 L BNN
+F 2 "" V 3400 2450 50  0001 C CNN
+F 3 "" V 3400 2450 50  0001 C CNN
+	1    3400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR?
+U 1 1 5ABB20E3
+P 3150 2800
+AR Path="/5ABB6026/5ABB0DDC/5ABB20E3" Ref="#PWR?"  Part="1" 
+AR Path="/5AC48A56/5ABB20E3" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 3150 2550 50  0001 C CNN
+F 1 "GNDA" H 3150 2675 33  0000 C CNN
+F 2 "" H 3150 2800 50  0001 C CNN
+F 3 "" H 3150 2800 50  0001 C CNN
+	1    3150 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5ABB20E9
+P 3150 2600
+AR Path="/5ABB6026/5ABB0DDC/5ABB20E9" Ref="R?"  Part="1" 
+AR Path="/5AC48A56/5ABB20E9" Ref="R1"  Part="1" 
+F 0 "R1" H 3100 2750 33  0000 C TNN
+F 1 "47K?" V 3150 2600 33  0000 C CNN
+F 2 "" V 3080 2600 50  0001 C CNN
+F 3 "" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	-1   0    0    1   
+$EndComp
+Text Notes 3550 4600 0    47   ~ 0
+Resistor might\nnot be needed\nwithout Mute\nCircuit.
+Text Notes 3400 2000 0    118  ~ 24
+HT Mute Circuits
+Wire Wire Line
+	4750 2700 5350 2700
+Wire Wire Line
+	5300 2950 5650 2950
+Wire Wire Line
+	5350 2700 5350 2950
+Wire Wire Line
+	4750 2700 4750 2850
+Wire Wire Line
+	4750 2850 4800 2850
+Connection ~ 5350 2950
+Wire Wire Line
+	4150 3050 4800 3050
+Wire Wire Line
+	4750 4250 5350 4250
+Wire Wire Line
+	5300 4500 5650 4500
+Wire Wire Line
+	5350 4250 5350 4500
+Wire Wire Line
+	4750 4250 4750 4400
+Wire Wire Line
+	4750 4400 4800 4400
+Connection ~ 5350 4500
+Wire Wire Line
+	4150 4600 4800 4600
+Wire Notes Line
+	2700 1800 2700 4800
+Wire Wire Line
+	4800 3650 4800 3750
+Wire Wire Line
+	4800 4050 4800 4150
+Wire Wire Line
+	4800 4150 4550 4150
+Wire Wire Line
+	4550 4100 4550 4250
+Wire Wire Line
+	4350 3650 4800 3650
+Wire Wire Line
+	4550 3650 4550 3700
+Connection ~ 4550 3650
+Wire Wire Line
+	4250 4200 4250 3900
+Wire Wire Line
+	3850 4200 3950 4200
+Wire Wire Line
+	3550 4050 3500 4050
+Wire Wire Line
+	3700 3900 3900 3900
+Wire Wire Line
+	3900 3900 3900 4200
+Connection ~ 3900 4200
+Wire Wire Line
+	3850 4050 3900 4050
+Connection ~ 3900 4050
+Wire Wire Line
+	2550 3900 3500 3900
+Wire Wire Line
+	3250 4200 3550 4200
+Wire Wire Line
+	3150 4050 3300 4050
+Wire Wire Line
+	3150 4350 3150 4400
+Connection ~ 4550 4150
+Wire Wire Line
+	4800 2100 4800 2200
+Wire Wire Line
+	4800 2500 4800 2600
+Wire Wire Line
+	4800 2600 4550 2600
+Wire Wire Line
+	4550 2550 4550 2700
+Wire Wire Line
+	4350 2100 4800 2100
+Wire Wire Line
+	4550 2100 4550 2150
+Connection ~ 4550 2100
+Wire Wire Line
+	4250 2600 4250 2350
+Connection ~ 4550 2600
+Wire Wire Line
+	3250 3900 3250 4200
+Connection ~ 3250 3900
+Connection ~ 3250 4050
+Wire Wire Line
+	3850 2600 3950 2600
+Wire Wire Line
+	3550 2450 3500 2450
+Wire Wire Line
+	3700 2300 3900 2300
+Wire Wire Line
+	3900 2300 3900 2600
+Connection ~ 3900 2600
+Wire Wire Line
+	3850 2450 3900 2450
+Connection ~ 3900 2450
+Wire Wire Line
+	2550 2300 3500 2300
+Wire Wire Line
+	3250 2600 3550 2600
+Wire Wire Line
+	3150 2450 3300 2450
+Wire Wire Line
+	3150 2750 3150 2800
+Wire Wire Line
+	3250 2300 3250 2600
+Connection ~ 3250 2300
+Connection ~ 3250 2450
+Wire Wire Line
+	4550 4550 4550 4600
+Connection ~ 4550 4600
+Wire Wire Line
+	4550 3000 4550 3050
+Connection ~ 4550 3050
+Wire Wire Line
+	2550 3050 3850 3050
+Wire Wire Line
+	2550 4600 3850 4600
+Wire Notes Line
+	5600 1800 5600 4800
+Wire Notes Line
+	5600 4800 2700 4800
+Wire Notes Line
+	5600 1800 2700 1800
+$Comp
+L +5VA #PWR?
+U 1 1 5ABB43BC
+P 2550 1750
+AR Path="/5ABB6026/5ABB0DDC/5ABB43BC" Ref="#PWR?"  Part="1" 
+AR Path="/5AC48A56/5ABB43BC" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 2550 1600 50  0001 C CNN
+F 1 "+5VA" H 2550 1890 33  0000 C CNN
+F 2 "" H 2550 1750 50  0001 C CNN
+F 3 "" H 2550 1750 50  0001 C CNN
+	1    2550 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1750 2550 1750
+$Comp
+L GNDA #PWR?
+U 1 1 5ABB43C3
+P 2550 1900
+AR Path="/5ABB6026/5ABB0DDC/5ABB43C3" Ref="#PWR?"  Part="1" 
+AR Path="/5AC48A56/5ABB43C3" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2550 1650 50  0001 C CNN
+F 1 "GNDA" H 2550 1775 33  0000 C CNN
+F 2 "" H 2550 1900 50  0001 C CNN
+F 3 "" H 2550 1900 50  0001 C CNN
+	1    2550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1900 2550 1900
+Text HLabel 2550 2300 0    60   Input ~ 0
+MUTEUP
+Text HLabel 2550 3050 0    60   Input ~ 0
+UVCF
+Text HLabel 2450 1750 0    60   Input ~ 0
++VDA
+Text HLabel 2450 1900 0    60   Input ~ 0
+AG
+Text HLabel 2550 3900 0    60   Input ~ 0
+MUTELO
+Text HLabel 2550 4600 0    60   Input ~ 0
+LVCF
+Text HLabel 5650 2950 2    60   Output ~ 0
+UVCF(M)
+Text HLabel 5650 4500 2    60   Output ~ 0
+LVCF(M)
+$EndSCHEMATC
