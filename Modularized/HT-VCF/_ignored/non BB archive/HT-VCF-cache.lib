@@ -80,8 +80,8 @@ ENDDEF
 # Dual-Unit-Op-Amp
 #
 DEF Dual-Unit-Op-Amp U 0 20 Y Y 2 F N
-F0 "U" 100 -100 33 H V L CNN
-F1 "Dual-Unit-Op-Amp" 0 -200 33 H V L CNN
+F0 "U" 100 -100 28 H V L CNN
+F1 "Dual-Unit-Op-Amp" 0 -200 28 H V L CNN
 F2 "MyKi_TH_IC:300Mil_DIP8" 0 -200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST

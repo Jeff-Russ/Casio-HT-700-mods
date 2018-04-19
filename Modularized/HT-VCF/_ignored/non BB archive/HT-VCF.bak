@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Modularized-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,12 +37,13 @@ LIBS:MyKI_Potentiometers
 LIBS:MyKi_Power_Flags
 LIBS:MyKi_Power_Regulators
 LIBS:MyKi_Switches
-LIBS:HT-VCF-cache
+LIBS:MyKi_Device
+LIBS:Modularized-cache
 EELAYER 26 0
 EELAYER END
 $Descr User 7874 7874
 encoding utf-8
-Sheet 1 1
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -448,7 +450,7 @@ AR Path="/5AC9E8E9" Ref="LA6358-1"  Part="1"
 AR Path="/5ACAB30F/5AC9E8E9" Ref="LA6358-1"  Part="1" 
 AR Path="/5ACE0B3B/5AC9E8E9" Ref="LA6358-1"  Part="1" 
 F 0 "LA6358-1" H 3050 4750 28  0000 L CNN
-F 1 "LA6358" H 3291 4572 28  0001 L CNN
+F 1 "NJM4558" H 3291 4572 28  0001 L CNN
 F 2 "MyKi_TH_IC:300Mil_DIP8" H 3000 4600 50  0001 C CNN
 F 3 "" H 3000 4600 50  0001 C CNN
 	1    3000 4600
@@ -467,7 +469,7 @@ AR Path="/5AC9E8F0" Ref="LA6358-1"  Part="2"
 AR Path="/5ACAB30F/5AC9E8F0" Ref="LA6358-1"  Part="2" 
 AR Path="/5ACE0B3B/5AC9E8F0" Ref="LA6358-1"  Part="2" 
 F 0 "LA6358-1" H 3500 4400 28  0000 L CNN
-F 1 "LA6358" H 3841 4572 28  0001 L CNN
+F 1 "NJM4558" H 3841 4572 28  0001 L CNN
 F 2 "MyKi_TH_IC:300Mil_DIP8" H 3550 4600 50  0001 C CNN
 F 3 "" H 3550 4600 50  0001 C CNN
 	2    3550 4600

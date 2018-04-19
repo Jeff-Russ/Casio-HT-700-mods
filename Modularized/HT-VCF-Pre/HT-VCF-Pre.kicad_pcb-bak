@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 1)
     (tracks 344)
     (zones 0)
     (modules 28)
@@ -2489,6 +2489,10 @@
     (fp_arc (start -43.18 0) (end -43.815 0) (angle 90) (layer F.SilkS) (width 0.15))
     (fp_arc (start -43.18 0) (end -43.815 0) (angle 90) (layer B.SilkS) (width 0.15))
     (fp_arc (start -43.18 0) (end -43.18 0.635) (angle 90) (layer B.SilkS) (width 0.15))
+  )
+
+  (gr_text HT-VCF-Pre (at 91.948 78.232) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
   (segment (start 76.2 96.52) (end 76.2 93.98) (width 0.5) (layer B.Cu) (net 1) (tstamp 5ACD62A6))
